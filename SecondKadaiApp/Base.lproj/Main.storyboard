@@ -27,6 +27,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbJ-hk-ZNP">
+                                <rect key="frame" x="111.5" y="80" width="191" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="UBf-io-z5f"/>
+                                    <constraint firstAttribute="height" constant="21" id="q03-oy-81F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -34,7 +44,9 @@
                             <constraint firstItem="qlF-84-MXT" firstAttribute="top" secondItem="krb-Ub-JIL" secondAttribute="bottom" constant="100" id="AW9-LS-euG"/>
                             <constraint firstItem="qlF-84-MXT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D22-ok-7F4"/>
                             <constraint firstItem="krb-Ub-JIL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SKg-jc-1Wd"/>
+                            <constraint firstItem="tbJ-hk-ZNP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="Vcc-UT-RbV"/>
                             <constraint firstItem="qlF-84-MXT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fvx-Jb-LsV"/>
+                            <constraint firstItem="tbJ-hk-ZNP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="igK-ke-92Z"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
