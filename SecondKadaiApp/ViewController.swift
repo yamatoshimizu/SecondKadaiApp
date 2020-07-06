@@ -8,13 +8,24 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var greetWord: UITextField!
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let helloViewController:HelloViewController = segue.destination as! HelloViewController
+        helloViewController.greeting = greetWord.text!
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
-
-
+    
+    @IBAction func unwind(_ segue:UIStoryboardSegue ){
+        
+    }
 }
 
